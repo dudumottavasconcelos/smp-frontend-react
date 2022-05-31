@@ -1,17 +1,9 @@
-:root{
-    --corPreto: #000;
-    --corBranca: #fff;
-    --corPrimaria: #171A21;
-    --corSecundaria: #1B2838;
-    --corAuxiliar1: #058FEE;
-    --corAuxiliar2: #688b58;
-    --corAuxiliar3: #5c6f68;
-}
-
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    background-color: var(--corPrimaria);
+    font-family: 'Roboto', sans-serif;
 }
 
 a:visited, a:active{

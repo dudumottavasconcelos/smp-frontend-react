@@ -1,18 +1,25 @@
 /* https://coolors.co/18181f-058fee-dcfffd-688b58-5c6f68 */
-:root{
+:root {
+    /* Primary colors */
     --corPreto: #000;
     --corBranca: #fff;
     --corPrimaria: #171A21;
     --corSecundaria: #1B2838;
+
+    /* Auxiliar colors */
     --corAuxiliar1: #058FEE;
-    --corAuxiliar2: #688b58;
+    --corAuxiliar2: #D8D5DB;
     --corAuxiliar3: #5c6f68;
-    --corAuxiliar4: #1b28384f;
+    --corAuxiliar4: #EAE8FF;
+
+    /* Transparency colors */
+    --corAuxiliar5: #2c3f579a;
+    --corAuxiliar6: #058FEE9a;
 }
 
 .container {
-    width: 100vw;
-    height: 100vh;
+    width: 100%;
+    height: 100%;
     background-color: var(--corPrimaria);
     grid-template: 
     "N N" 
@@ -26,38 +33,48 @@
     grid-area: "N";
     background-color: var(--corSecundaria);
     height: 20vh;
+    width: 100%;
     display: flex;
     align-items: center;
-    /* justify-content: center; */
+    margin-bottom: 2vh;
 }
 
 .link-logo {
-    display: inline;
+    display: inline-block;
+    background-color: var(--corSecundaria);
 }
 
 .img-logo {
     width: 100%;
-    height: 20vh;
+    height: 19vh;
+    background-color: var(--corSecundaria);
 }
 
 ul.menu {
     display: inline;
+    width: 100%;
+    height: 20vh;
     margin-left: 3vw;
     list-style-type: none;
     justify-content: space-between;
+    background-color: var(--corSecundaria);
 }
 
 ul.menu li {
     display: inline;
+    width: 100%;
     color: var(--corPrimaria);
     justify-content: space-between;
     padding-right: 2vw;
+    background-color: var(--corSecundaria);
 }
 
 ul.menu li a.btn-menu {
     text-decoration: none;
+    display: inline-block;
     height: 20vh;
     display: inline-block;
+    background-color: var(--corSecundaria);
 }
 
 ul.menu li a.btn-menu:after {
@@ -88,22 +105,38 @@ ul.menu li a.btn-menu:hover:before {
     width: 100%;
 }
 
+ul.menu li a.btn-menu:hover {
+    color: var(--corAuxiliar2);
+}
+
 ul.menu li a.btn-login {
+    display: inline-block;
     text-decoration: none;
-    background-color: var(--corAuxiliar1);
-    color: var(--corPrimaria);
-    padding: 2vw; 
-    border: .05rem solid var(--corBranca);
-    border-radius: 30%;   
+    font-weight: bold;
+    background-color: var(--corSecundaria);
+    color: var(--corAuxiliar4);
+    padding: .65em 1em; 
+    border: .05em solid var(--corAuxiliar1);
+    border-radius: 100px;
+}
+
+ul.menu li a.btn-login:hover {
+    background-color: var(--corAuxiliar5);
 }
 
 ul.menu li a.btn-registro {
+    display: inline-block;
     text-decoration: none;
+    font-weight: bold;
     background-color: var(--corAuxiliar1);
-    color: var(--corPrimaria);
-    padding: 2vw; 
-    border: .05rem solid var(--corBranca);
-    border-radius: 30%;   
+    color: var(--corAuxiliar4);
+    padding: .65em 1em; 
+    border: .05em solid var(--corAuxiliar1);
+    border-radius: 100px; 
+}
+
+ul.menu li a.btn-registro:hover {
+    background-color: var(--corAuxiliar6);
 }
 
 /* PARTE DO CORPO */
@@ -111,19 +144,27 @@ ul.menu li a.btn-registro {
 .corpo {
     grid-area: "M";
     background-color: var(--corPrimaria);
-    height: 70vh;
+    height: auto;
+    width: 90vw;
+    margin: auto;
+}
+
+.corpo p {
+    color: var(--corBranca);
 }
 
 /* PARTE DO RODAPÉ */
 
 .rodape {
     grid-area: "F";
-    background-color: var(--corAuxiliar4);
+    background-color: var(--corSecundaria);
     height: 10vh;
+    margin-top: 2vh;
 }
 
 footer p {
     text-align: center;
-    color: var(--corBranca);
+    font-size: 1em;
+    color: var(--corAuxiliar2);
     padding-top: 3.5vh;
   }
