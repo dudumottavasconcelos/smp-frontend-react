@@ -1,0 +1,82 @@
+/* https://coolors.co/18181f-058fee-dcfffd-688b58-5c6f68 */
+:root{
+    --corPreto: #000;
+    --corBranca: #fff;
+    --corPrimaria: #171A21;
+    --corSecundaria: #1B2838;
+    --corAuxiliar1: #058FEE;
+    --corAuxiliar2: #688b58;
+    --corAuxiliar3: #5c6f68;
+    --corAuxiliar4: #1b28384f;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    background-color: var(--corPrimaria);
+    grid-template: 
+    "N N" 
+    "M M" 
+    "F F";
+}
+
+/* PARTE DO CABEÇALHO */
+
+.cabecalho {
+    grid-area: "N";
+    background-color: var(--corSecundaria);
+    height: 20vh;
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+}
+
+.link-logo {
+    display: inline;
+}
+
+.img-logo {
+    width: 100%;
+    height: 20vh;
+}
+
+ul.menu {
+    display: inline;
+    margin-left: 3vw;
+    list-style-type: none;
+}
+
+ul.menu li {
+    display: inline;
+    color: var(--corPrimaria);
+}
+
+ul.menu li a.btn {
+    text-decoration: none;
+}
+
+ul.menu li a:hover {
+    
+}
+
+/* PARTE DO CORPO */
+
+.corpo {
+    grid-area: "M";
+    background-color: var(--corPrimaria);
+    height: 70vh;
+}
+
+/* PARTE DO RODAPÉ */
+
+.rodape {
+    grid-area: "F";
+    background-color: var(--corAuxiliar4);
+    height: 10vh;
+}
+
+footer p {
+    text-align: center;
+    color: var(--corBranca);
+    padding-top: 3.5vh;
+  }
