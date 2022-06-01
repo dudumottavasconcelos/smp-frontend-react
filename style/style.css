@@ -62,10 +62,10 @@ ul.menu {
 ul.menu li {
     display: inline;
     width: 100%;
-    color: var(--corPrimaria);
     justify-content: space-between;
     padding-right: 2vw;
     background-color: var(--corSecundaria);
+    color: var(--corAuxiliar2);
 }
 
 ul.menu li a.btn-menu {
@@ -74,6 +74,7 @@ ul.menu li a.btn-menu {
     height: 20vh;
     display: inline-block;
     background-color: var(--corSecundaria);
+    color: var(--corAuxiliar2);
 }
 
 ul.menu li a.btn-menu:after {
@@ -113,7 +114,6 @@ ul.menu li a.btn-login {
     text-decoration: none;
     font-weight: bold;
     background-color: var(--corSecundaria);
-    color: var(--corAuxiliar4);
     padding: .65em 1em; 
     border: .05em solid var(--corAuxiliar1);
     border-radius: 100px;
@@ -137,10 +137,6 @@ ul.menu li a.btn-registro {
 
 ul.menu li a.btn-registro:hover {
     background-color: var(--corAuxiliar6);
-}
-
-ul.menu li a.btn-menu {
-    color: var(--corAuxiliar1);
 }
 
 /* PARTE DO CORPO */

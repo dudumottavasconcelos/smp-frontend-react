@@ -1,7 +1,79 @@
-@media only screen and (max-width: 1300px) { ul.menu li a.btn-login {margin-left: 35vw;} }
-@media only screen and (max-width: 1000px) { ul.menu li a.btn-login {margin-left: 25vw;} }
-@media only screen and (max-width: 830px) { ul.menu li a.btn-login {margin-left: 15vw;} }
-@media only screen and (max-width: 550px) { ul.menu li a.btn-login {margin-left: 0;} }
-@media only screen and (max-width: 450px) { ul.menu li a.btn-login, ul.menu li a.btn-registro { display: block; width: 25%; font-size: 70%; position: absolute; top: 14vh; } ul.menu li a.btn-login { left: 25vw; } ul.menu li a.btn-registro { right: 23vw; } }
-@media only screen and (max-width: 400px) { ul.menu li a.btn-login, ul.menu li a.btn-registro { width: 25%; } ul.menu li a.btn-login { left: 25vw; } ul.menu li a.btn-registro { right: 23vw; } }
-@media only screen and (max-width: 300px) { ul.menu li a.btn-login, ul.menu li a.btn-registro { display: block; width: 28%; font-size: 65%; position: absolute; top: 13vh; } ul.menu li a.btn-login { left: 30vw; } ul.menu li a.btn-registro { right: 10vw; } }
+@media only screen and (max-width: 1300px) {
+    ul.menu li a.btn-login {
+        margin-left: 35vw;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    ul.menu li a.btn-login {
+        margin-left: 25vw;
+    }
+}
+
+@media only screen and (max-width: 830px) {
+    ul.menu li a.btn-login {
+        margin-left: 15vw;
+    }
+}
+
+@media only screen and (max-width: 550px) {
+    ul.menu li a.btn-login {
+        margin-left: 0;
+    }
+}
+
+@media only screen and (max-width: 450px) {
+
+    ul.menu li a.btn-login,
+    ul.menu li a.btn-registro {
+        display: block;
+        width: 25%;
+        font-size: 70%;
+        position: absolute;
+        top: 14vh;
+    }
+
+    ul.menu li a.btn-login {
+        left: 25vw;
+    }
+
+    ul.menu li a.btn-registro {
+        right: 23vw;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+
+    ul.menu li a.btn-login,
+    ul.menu li a.btn-registro {
+        width: 25%;
+    }
+
+    ul.menu li a.btn-login {
+        left: 25vw;
+    }
+
+    ul.menu li a.btn-registro {
+        right: 23vw;
+    }
+}
+
+@media only screen and (max-width: 300px) {
+
+    ul.menu li a.btn-login,
+    ul.menu li a.btn-registro {
+        display: block;
+        width: 28%;
+        font-size: 65%;
+        position: absolute;
+        top: 13vh;
+    }
+
+    ul.menu li a.btn-login {
+        left: 30vw;
+    }
+
+    ul.menu li a.btn-registro {
+        right: 10vw;
+    }
+}
