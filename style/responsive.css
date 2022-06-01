@@ -17,6 +17,11 @@
 }
 
 @media only screen and (max-width: 550px) {
+    /* ul.menu li a.btn-login,
+    ul.menu li a.btn-registro {
+        overflow: hidden;
+    } */
+
     ul.menu li a.btn-login {
         margin-left: 0;
     }
@@ -28,7 +33,7 @@
     ul.menu li a.btn-registro {
         display: block;
         width: 25%;
-        font-size: 70%;
+        font-size: 60%;
         position: absolute;
         top: 14vh;
     }
