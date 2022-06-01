@@ -160,15 +160,21 @@ ul.menu li a.btn-menu {
 /* PARTE DO RODAPÉ */
 
 .rodape {
+    display: grid;
     grid-area: "F";
     background-color: var(--corSecundaria);
     height: 10vh;
+    width: 100%;
     margin-top: 2vh;
+    align-items: center;
 }
 
 footer p {
+    display: grid;
     text-align: center;
     font-size: 1em;
+    height: 10vh;
+    width: 100%;
     color: var(--corAuxiliar2);
-    padding-top: 3.5vh;
+    padding: auto;
   }
