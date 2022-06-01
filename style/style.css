@@ -20,10 +20,10 @@
     width: 100%;
     height: 100%;
     background-color: var(--corPrimaria);
-    grid-template: 
-    "N N" 
-    "M M" 
-    "F F";
+    grid-template:
+        "N N"
+        "M M"
+        "F F";
 }
 
 /* PARTE DO CABEÇALHO */
@@ -77,7 +77,7 @@ ul.menu li a.btn-menu {
 }
 
 ul.menu li a.btn-menu:after {
-    transition: all ease-in-out .2s; 
+    transition: all ease-in-out .2s;
     background: none repeat scroll 0 0 var(--corAuxiliar1);
     margin-top: 8vh;
     content: "";
@@ -87,7 +87,7 @@ ul.menu li a.btn-menu:after {
 }
 
 ul.menu li a.btn-menu:before {
-    transition: all ease-in-out .2s; 
+    transition: all ease-in-out .2s;
     background: none repeat scroll 0 0 var(--corAuxiliar1);
     margin-bottom: 8vh;
     content: "";
@@ -114,7 +114,7 @@ ul.menu li a.btn-login {
     font-weight: bold;
     background-color: var(--corSecundaria);
     color: var(--corAuxiliar4);
-    padding: .65em 1em; 
+    padding: .65em 1em;
     border: .05em solid var(--corAuxiliar1);
     border-radius: 100px;
     margin-left: 45vw;
@@ -130,9 +130,9 @@ ul.menu li a.btn-registro {
     font-weight: bold;
     background-color: var(--corAuxiliar1);
     color: var(--corAuxiliar4);
-    padding: .65em 1em; 
+    padding: .65em 1em;
     border: .05em solid var(--corAuxiliar1);
-    border-radius: 100px; 
+    border-radius: 100px;
 }
 
 ul.menu li a.btn-registro:hover {
@@ -147,15 +147,32 @@ ul.menu li a.btn-menu {
 
 .corpo {
     grid-area: "M";
-    background-color: var(--corPrimaria);
     height: auto;
     width: 90vw;
     margin: auto;
-}
-
-.corpo p {
     color: var(--corBranca);
 }
+
+.corpo h1 {
+    text-align: center;
+}
+
+.section-plane table,
+td,
+th {
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+.section-plane table {
+    margin: 20px auto auto auto;
+    border-collapse: collapse;
+    width: 40%;
+}
+
+.section-plane th, td {
+    padding: 15px;
+  }
 
 /* PARTE DO RODAPÉ */
 
@@ -171,4 +188,4 @@ footer p {
     font-size: 1em;
     color: var(--corAuxiliar2);
     padding-top: 3.5vh;
-  }
+}
