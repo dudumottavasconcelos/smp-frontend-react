@@ -42,6 +42,8 @@
             <div class="form-login">
                 <form action="" method="POST">
                     <fieldset>
+                        <h1 class="titulo-entrar">Entrar</h1>
+
                         <div class="input-text">
                             <input type="text" name="NomeUsuario" id="txtNomeUsuario" placeholder=" " required>
                             <label for="txtNomeUsuario">Nome de Usuário ou E-mail</label>
@@ -52,9 +54,17 @@
                             <label for="txtSenha">Senha</label>
                         </div>
 
-                        <div class="buttons">
+                        <div class="input-check">
+                            <input type="checkbox" name="Lembrar" id="chkLembrar">
+                            <label for="chkLembrar">Mantenha-me conectado</label>
+                        </div>
+
+                        <div class="buttons mb-02">
                             <a href="#" class="btn-voltar">Entrar</a>
-                            <a href="index.html" class="btn-voltar">Voltar</a>
+                        </div>
+                        
+                        <div class="outros-links">
+                            <a href="#" class="esqueceu-senha">Esqueci minha senha.</a>
                         </div>
                     </fieldset>
                 </form>

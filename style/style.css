@@ -23,7 +23,7 @@ body {
 
 .container {
     width: 100%;
-    height: 100%;
+    min-height: 100vh;
     background-color: var(--corPrimaria);
     grid-template:
         "N N"
@@ -40,7 +40,7 @@ body {
     width: 100%;
     display: flex;
     align-items: center;
-    margin-bottom: 2vh;
+    
 }
 
 .link-logo {
@@ -149,15 +149,10 @@ ul.menu li a.btn-registro:hover {
 
 .corpo {
     grid-area: "M";
-    height: auto;
-    width: 90vw;
+    min-height: 70vh;
+    width: 100%;
     margin: auto;
     color: var(--corBranca);
-    margin-bottom: 30%;
-}
-
-.corpo h1 {
-    text-align: center;
 }
 
 .section-plane table,
@@ -187,7 +182,6 @@ th {
     background-color: var(--corSecundaria);
     height: 10vh;
     width: 100%;
-    margin-top: 2vh;
     align-items: center;
 }
 
