@@ -1,0 +1,80 @@
+.boxes {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    width: 85%;
+    margin: 5vh auto;
+}
+
+.box {
+    border: .7px solid var(--corSecundaria);
+    border-radius: 15px;
+    background-color: var(--corSecundaria);
+    box-shadow: 0 0 .9em var(--corAuxiliar6);
+    width: 25vw;
+    height: auto;
+    margin: 10px;
+}
+
+.box:hover {
+    background-color: var(--corAuxiliar5);
+    box-shadow: 0 0 1.5em var(--corAuxiliar6);
+}
+
+.box h3 {
+    text-align: center;
+    font-size: 1rem;
+    color: var(--corAuxiliar2);
+}
+
+.box ul {
+    list-style: none;
+}
+
+.box ul li {
+    font-size: .8rem;
+    line-height: 2rem;
+    color: var(--corAuxiliar1);
+    word-spacing: .15rem;
+    margin-left: 1.2vw;
+}
+
+.box i.green {
+    font-size: 1rem;
+    background-color: var(--corAuxiliar3);
+    color: var(--corBranca);
+    border-radius: 1rem;
+}
+
+.box i.red {
+    font-size: 1rem;
+    background-color: var(--corAuxiliar7);
+    color: var(--corBranca);
+    border-radius: 1rem;
+}
+
+.preco {
+    text-align: center;
+    color: var(--corAuxiliar3);
+    font-size: 1.4rem;
+}
+
+.buttons-plans {
+    display: flex;
+    flex-direction: column;
+}
+
+.buttons-plans a {
+    display: flex;
+    align-self: center;
+    color: var(--corAuxiliar2);
+    border: .10em solid var(--corAuxiliar1);
+    border-radius: 300px;
+    padding: .40rem 1.2rem;
+}
+
+.buttons-plans a:hover {
+    background-color: var(--corAuxiliar5);
+}

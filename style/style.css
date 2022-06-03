@@ -10,6 +10,7 @@
     --corAuxiliar2: #D8D5DB;
     --corAuxiliar3: #5c6f68;
     --corAuxiliar4: #EAE8FF;
+    --corAuxiliar7: #9c4848;
 
     /* Transparency colors */
     --corAuxiliar5: #2c3f579a;
@@ -151,24 +152,6 @@ ul.menu li a.btn-registro:hover {
     min-height: 70vh;
     width: 100%;
     color: var(--corAuxiliar2);
-}
-
-.section-plane table,
-td,
-th {
-    border: 1px solid #ddd;
-    text-align: left;
-}
-
-.section-plane table {
-    margin: 20px auto auto auto;
-    border-collapse: collapse;
-    width: 40%;
-}
-
-.section-plane th,
-td {
-    padding: 15px;
 }
 
 /* PARTE DO RODAPÉ */
