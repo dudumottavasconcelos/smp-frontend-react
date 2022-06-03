@@ -152,6 +152,68 @@ ul.menu li a.btn-registro:hover {
     min-height: 70vh;
     width: 100%;
     color: var(--corAuxiliar2);
+    margin: 5vh auto;
+}
+
+.titulo-melhor {
+    margin-top: 5vh;
+    text-align: center;
+    font-size: 3em;
+    font-variant: small-caps;
+    color: var(--corAuxiliar2);
+    word-spacing: .15em;
+}
+
+.titulo-melhor span {
+    color: var(--corAuxiliar1);
+}
+
+.subtitulo-melhor {
+    text-align: center;
+    font-size: .8em;
+    margin-top: 2vh;
+}
+
+.about-index {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    width: 100%;
+}
+
+.grupos {
+    margin-top: 5vh;
+    margin-left: 3vw;
+    width: 40vw;
+    text-align: justify;
+}
+
+.compartilhamento {
+    margin-top: 5vh;
+    margin-left: 55vw;
+    width: 40vw;
+    text-align: justify;
+}
+
+.exportar {
+    margin-top: 5vh;
+    margin-left: 3vw;
+    width: 40vw;
+    text-align: justify;
+}
+
+.corpo div h3 {
+    color: var(--corAuxiliar1);
+    font-size: 1.5em;
+    word-spacing: .10em;
+    font-variant: small-caps;
+}
+
+.corpo div p {
+    margin-top: 2vh;
+    font-size: 1em;
+    word-spacing: .15em;
+    letter-spacing: .10em;
 }
 
 /* PARTE DO RODAPÉ */
@@ -167,7 +229,7 @@ ul.menu li a.btn-registro:hover {
     align-items: center;
 }
 
-footer p {
+.rodape-texto {
     text-align: center;
     font-size: 1em;
     margin: auto;
