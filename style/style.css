@@ -40,7 +40,6 @@ body {
     width: 100%;
     display: flex;
     align-items: center;
-    
 }
 
 .link-logo {
@@ -120,7 +119,7 @@ ul.menu li a.btn-login {
     font-weight: bold;
     color: var(--corAuxiliar4);
     background-color: var(--corSecundaria);
-    padding: .65em 1em; 
+    padding: .65em 1em;
     border: .05em solid var(--corAuxiliar1);
     border-radius: 100px;
     margin-left: 45vw;
@@ -151,8 +150,7 @@ ul.menu li a.btn-registro:hover {
     grid-area: "M";
     min-height: 70vh;
     width: 100%;
-    margin: auto;
-    color: var(--corBranca);
+    color: var(--corAuxiliar2);
 }
 
 .section-plane table,
@@ -168,9 +166,10 @@ th {
     width: 40%;
 }
 
-.section-plane th, td {
+.section-plane th,
+td {
     padding: 15px;
-  }
+}
 
 /* PARTE DO RODAPÉ */
 
